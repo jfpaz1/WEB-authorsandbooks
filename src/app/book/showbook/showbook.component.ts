@@ -8,11 +8,6 @@ import { SharedService } from 'src/app/shared.service';
 })
 export class ShowbookComponent implements OnInit {
 
-  // constructor() { }
-
-  // ngOnInit(): void {
-  // }
-
   constructor(private sharedService: SharedService) { }
 
   Book:any=[];

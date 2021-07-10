@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { SharedService } from 'src/app/shared.service';
 
 @Component({
   selector: 'app-book',
@@ -12,20 +11,5 @@ export class BookComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-  // constructor(private sharedService: SharedService) { }
-
-  // Book:any=[];
-
-  // ngOnInit(): void {
-  //   this.getBooksList();
-  // }
-
-  // getBooksList(){
-  //   this.sharedService.getBooksList().subscribe(data => {
-  //     this.Book = [];
-  //     this.Book = data;
-  //   });
-  // }
 
 }
