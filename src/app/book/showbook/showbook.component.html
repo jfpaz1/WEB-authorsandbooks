@@ -1,6 +1,7 @@
-<table class="table table-striped">
 
-    <head>
+
+<table class="table table-striped">
+    <thead>
         <tr>
             <th>Id</th>
             <th>Title</th>
@@ -9,12 +10,12 @@
             <th>Excerpt</th>
             <th>PublishDate</th>
         </tr>
-    </head>
+    </thead>
     <tbody>
         <tr *ngFor="let item of Book">
             <td>{{item.Id}}</td>
             <td>{{item.Title}}</td>
-            <td>{{item.Descripcion}}</td>
+            <td>{{item.Description}}</td>
             <td>{{item.PageCount}}</td>
             <td>{{item.Excerpt}}</td>
             <td>{{item.PublishDate}}</td>

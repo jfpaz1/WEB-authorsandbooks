@@ -11,6 +11,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ShowauthorComponent } from './author/showauthor/showauthor.component';
 import { ShowbookComponent } from './book/showbook/showbook.component';
+import { FilterbooksComponent } from './filterbooks/filterbooks.component';
+import { ShowfilterbooksComponent } from './filterbooks/showfilterbooks/showfilterbooks.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { ShowbookComponent } from './book/showbook/showbook.component';
     AuthorComponent,
     BookComponent,
     ShowauthorComponent,
-    ShowbookComponent
+    ShowbookComponent,
+    FilterbooksComponent,
+    ShowfilterbooksComponent
   ],
   imports: [
     BrowserModule,
